@@ -12,12 +12,14 @@ A machine learning project exploring automated plant disease classification usin
 
 ## Results
 
-| Model | Evaluation metric | Accuracy |
+| Model | Evaluation Metric | Accuracy |
 |---|---|---:|
-| SVM | Training accuracy | 98.49% |
-| SVM | Validation accuracy | 90.85% |
-| SVM | Test accuracy | 90.58% |
-| EfficientNetB3 | Validation accuracy | 91.26% |
+| SVM | Training Accuracy | 98.49% |
+| SVM | Validation Accuracy | 90.85% |
+| SVM | Test Accuracy | 90.58% |
+| SVM | 3-Fold Cross-Validation Accuracy | 89.90% |
+| EfficientNetB3 | Phase 1 Validation Accuracy (Frozen Base) | 88.55% |
+| EfficientNetB3 | Phase 2 Validation Accuracy (Fine-Tuning) | 91.26% |
 
 **Note:** The reported validation and test accuracies come from different evaluation sets and should not be interpreted as a direct comparison on identical data.
 
